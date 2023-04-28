@@ -1,13 +1,11 @@
 import React from "react";
-import Counter from "./components/Counter";
-import Input from "./components/Input";
 import "./App.css";
+import Tail from "./components/Tail";
 
 function App() {
   return (
     <div className="App">
-      <Counter />
-      <Input />
+      <Tail />
     </div>
   );
 }
