@@ -1,11 +1,13 @@
 import React from "react";
 import "./App.css";
-import Tail from "./components/Tail";
+import JoinBtn from "./components/JoinBtn";
+// import TestHeader from "./components/TestHeader";
 
 function App() {
   return (
     <div className="App">
-      <Tail />
+      {/* <TestHeader isLogin={true} userID="윤제" /> */}
+      <JoinBtn age={16} />
     </div>
   );
 }
